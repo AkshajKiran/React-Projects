@@ -1,0 +1,89 @@
+/* Responsive css */
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .microcontainer{
+          width: 100%;
+  }
+  .mauto{
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .pframe {
+    padding: 0 3%;
+  }
+  .docmenu{
+    margin-left: 2em;
+  }
+}
+@media screen and (min-width: 1366px) {
+  .microcontainer{
+          width: 1366px;
+  }
+  .mauto{
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .pframe {
+    padding: 0 3%;
+  }
+}
+@media screen and (min-width: 1280px) and (max-width: 1366px){
+  .microcontainer{
+          width: 100%;
+  }
+  .mauto{
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .pframe {
+    padding: 0 3%;
+  }
+  .docmenu{
+    margin-left: 3em;
+  }
+}
+@media screen and (min-width: 800px)  and (max-width: 1024px) {
+  .microcontainer{
+          width: 100%;
+  }
+  .mauto{
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .pframe {
+    padding: 0 3%;
+  }
+  .docmenu{
+    margin-left: 1em;
+  }
+}
+@media screen and (min-width: 600px)  and (max-width: 800px) {
+  .microcontainer{
+          min-width: 800px;
+          width: 800px;
+  }
+  .mauto{
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .pframe {
+    padding: 0 3%;
+  }
+}
+
+@media screen and (min-width: 200px)  and (max-width: 600px) {
+  .microcontainer{
+          min-width: 800px;
+          width: 800px;
+  }
+  .mauto{
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .pframe {
+    padding: 0 3%;
+  }
+}
+
+.microcontainerwide{
+  width: 100%;
+}

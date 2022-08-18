@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('./Assets/fonts/Roboto/Roboto-Regular.ttf')  format('truetype');
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url('./Assets/fonts/Roboto/Roboto-Medium.ttf')  format('truetype');
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('./Assets/fonts/Roboto/Roboto-Bold.ttf')  format('truetype');
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url('./Assets/fonts/Roboto/Roboto-Light.ttf')  format('truetype');
+    font-display: block;
+}
+
+/* @font-face {
+	font-family: 'font_icon';
+	src: url('./Assets/icons/_MF_icons.eot');
+	src: url('./Assets/icons/_MF_icons.eot') format('embedded-opentype'), url('./Assets/icons/_MF_icons.ttf') format('truetype'), url('./Assets/icons/_MF_icons.woff') format('woff');
+    font-weight: bold;
+    font-display: block;
+} */
+
+
+/* Typography */
+body{
+    font-family: 'Roboto', 'Helevtica Neue', Helevtica, Arial, sans-serif;
+    margin: unset;
+    font-display: block;
+}
+
+/* Font Sizes */
+.font-xlarge {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.font-large {
+    font-size: 16px;
+    line-height: 20px;
+}
+.font-regular {
+    font-size: 14px;
+    line-height: 18px;
+}
+.font-small {
+    font-size: 12px;
+    line-height: 16px;
+}
+.font-xsmall {
+    font-size: 10px;
+    line-height: 14px;
+}
+
+.title-xlarge {
+    font-size: 40px;
+    line-height: 44px;
+}
+.title-large {
+    font-size: 30px;
+    line-height: 34px;
+}
+.title-medium {
+    font-size: 24px;
+    line-height: 28px;
+}
+.title-regular {
+    font-size: 20px;
+    line-height: 24px;
+}
+.title-small {
+    font-size: 16px;
+    line-height: 20px;
+}
+.title-xsmall {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+/* Font Weights */
+.font-weight-thin {
+    font-weight: 200;
+    font-family: 'Roboto-Light', 'Helevtica Neue', Helevtica, Arial, sans-serif;
+}
+.font-weight-light {
+    font-weight: 300;
+    font-family: 'Roboto-Light', 'Helevtica Neue', Helevtica, Arial, sans-serif;
+}
+.font-weight-regular {
+    font-weight: 400;
+    font-family: 'Roboto-Regular', 'Helevtica Neue', Helevtica, Arial, sans-serif;
+}
+.font-weight-medium {
+    font-weight: 500;
+    font-family: 'Roboto-Medium', 'Helevtica Neue', Helevtica, Arial, sans-serif;
+}
+.font-weight-bold {
+    font-weight: 700;
+    font-family: 'Roboto-Bold', 'Helevtica Neue', Helevtica, Arial, sans-serif;
+}
+.font-weight-black {
+    font-weight: 900;
+    font-family: 'Roboto-Bold', 'Helevtica Neue', Helevtica, Arial, sans-serif;
+}
+
+
+
+
+@media (max-width: 1000px) and (min-width: 800px) {
+    .font-xlarge {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    
+    .font-large {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .font-regular {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .font-small {
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .font-xsmall {
+        font-size: 9px;
+        line-height: 13px;
+    }
+    
+    .title-xlarge {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .title-large {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .title-medium {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .title-regular {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .title-small {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .title-xsmall {
+        font-size: 12px;
+        line-height: 16px;
+    }    
+}
+
